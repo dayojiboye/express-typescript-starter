@@ -13,7 +13,6 @@
 		"build": "tsc && tsup",
 		"start:dev": "node --import=tsx --watch src/index.ts",
 		"start:prod": "node dist/index.js",
-		"check": "biome check --write",
 		"test": "vitest run",
 		"test:cov": "vitest run --coverage"
 	},
